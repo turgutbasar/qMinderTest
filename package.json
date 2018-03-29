@@ -1,0 +1,22 @@
+{
+  "name": "test_task",
+  "version": "1.0.0",
+  "description": "QMinderTestTask",
+  "main": "test_task.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turgutbasar/qMinderTest.git"
+  },
+  "author": "Basar Turgut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turgutbasar/qMinderTest/issues"
+  },
+  "homepage": "https://github.com/turgutbasar/qMinderTest#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

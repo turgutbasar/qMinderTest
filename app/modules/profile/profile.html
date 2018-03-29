@@ -1,0 +1,14 @@
+<div id="timeline-inner-container" infinite-scroll="profile.loadMore()">
+	<div class="row justify-content-center">
+		<div ng-repeat='item in profile.items'>
+			<div class="thumbnail container">
+				<a href="{{item.node.thumbnail_src}}">
+					<img src="{{item.node.thumbnail_resources[0].src}}">
+					<div class="middle">
+						<div class="text">{{item.node.edge_media_to_caption.edges[0].node.text}}</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

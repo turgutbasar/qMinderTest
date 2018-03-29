@@ -1,0 +1,24 @@
+﻿<div id="timeline-container" class="container-fluid">
+	<div class="row">
+		<div class="col-md6">
+			<img id="profile-pic" src="{{pic}}">
+		</div>
+		<div class="col-md6" style="margin-left:30px;">
+			<h1>{{name}}</h1>
+			<h3>{{bio}}</h3>
+			<a href="{{external}}">{{external}}</a>
+			<p> Follows : {{follows}}
+				Followed By : {{followed}}
+			</p>
+		</div>
+	</div>
+</div>
+<nav class="navbar navbar-light justify-content-between">
+	<a class="navbar-brand fa fa-github" href="http://github.com/turgutbasar">
+	</a>
+	<form class="form-inline">
+		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" ng-model="username">
+		<button class="btn btn-outline-success my-2 my-sm-0" ng-click="search()">Search</button>
+	</form>
+</nav>
+<div ui-view=""></div>
